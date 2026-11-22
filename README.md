@@ -37,3 +37,10 @@ Jogo de palavras cruzadas e luta inspirado nos fliperamas, desenvolvido em HTML,
 Envie estes arquivos à raiz de um repositório público e habilite GitHub Pages em Settings → Pages → Deploy from a branch → main → /(root). Atualize este README com o endereço publicado.
 
 O projeto não utiliza frameworks, bibliotecas JavaScript ou backend. A fonte do Google Fonts é opcional; o jogo também funciona offline com fontes alternativas.
+
+
+## Atualização v3
+- Layout desktop sem rolagem da página: arena e cruzadinha lado a lado.
+- Cinco respostas incorretas completas causam Game Over; respostas incompletas não gastam tentativas.
+- Socos animados dos dois lutadores; acerto ataca o chefe, erro gera contra-ataque.
+- Conferência da palavra selecionada, para evitar penalizar outras palavras ainda em preenchimento.
